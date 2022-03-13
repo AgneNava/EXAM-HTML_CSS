@@ -179,3 +179,84 @@ p {
     display: none;
   }
 }
+
+/* SCROLL-LINE STYLING  */
+
+.scroll-line {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+}
+
+.scroll-line::-webkit-scrollbar {
+  display: none;
+}
+
+figure img {
+  width: 30rem;
+}
+
+figure .column-2 img {
+  width: 1rem;
+  padding-right: 0.8rem;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  margin-top: 0;
+  height: 25%;
+  width: 30rem;
+  background-color: #cabcbc;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.column-1,
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 1.5rem;
+}
+
+.column-1 > div,
+.column-2 > div {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.column-1 {
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 80%;
+}
+
+.column-2 {
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 80%;
+}
+
+.price-tag {
+  display: flex;
+  flex-direction: row;
+}
+
+.series-bid {
+  color: orangered;
+  font-size: 1.1rem;
+}
+
+.item-name-price {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.article-number-day {
+  color: #202020;
+  font-size: 2rem;
+}
