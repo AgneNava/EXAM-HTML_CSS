@@ -213,7 +213,7 @@ p {
 }
 
 figure {
-  background-color: #cabcbc;
+  background-color: #eeeeee;
   border-radius: 1.5rem;
 }
 
@@ -234,9 +234,15 @@ figure .column-2 img {
   margin-top: 0;
   height: 25%;
   width: 30rem;
-  background-color: #cabcbc;
+  background-color: #eeeeee;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
+}
+
+.item-details > * {
+  display: inline-block;
+  text-decoration: underline;
+  text-decoration-color: #eeeeee;
 }
 
 .column-1,
@@ -271,18 +277,18 @@ figure .column-2 img {
 }
 
 .series-bid {
-  color: orangered;
+  color: #ff8139;
   font-size: 1.1rem;
 }
 
 .item-name-price {
-  color: black;
+  color: #111111;
   font-size: 2rem;
   font-weight: bold;
 }
 
 .article-number-day {
-  color: #202020;
+  color: #777777;
   font-size: 2rem;
 }
 
