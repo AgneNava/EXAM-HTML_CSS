@@ -327,3 +327,70 @@ figure .column-2 img {
   padding: 3.5rem;
   font-size: 2.5rem;
 }
+
+/* FULL SCREEN STYLING  */
+
+@media screen and (min-width: 1200px) {
+  /* MAIN HEADER */
+
+  .menu-icon {
+    display: none;
+  }
+
+  .main-header-nav {
+    display: flex;
+  }
+
+  header img {
+    width: 15rem;
+    padding-right: 2rem;
+  }
+
+  .main-header-nav > a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #272727;
+    padding-left: 1rem;
+  }
+
+  .main-header-nav a:last-child {
+    color: #ff3998;
+  }
+
+  .upsell-top {
+    margin: 8rem 3.5rem 1rem 3.5rem;
+    border-radius: 1rem;
+  }
+
+  /* PRESS CONTAINER */
+
+  .press-container {
+    flex-wrap: nowrap;
+    width: 95%;
+    justify-content: space-between;
+  }
+
+  .press-item {
+    width: 18%;
+    padding-right: 1rem;
+  }
+
+  #boom {
+    order: 1;
+  }
+
+  #blimp {
+    order: 2;
+  }
+
+  #qrco {
+    order: 3;
+  }
+
+  #open-door {
+    order: 4;
+  }
+
+  #droplet {
+    order: 5;
+  }
