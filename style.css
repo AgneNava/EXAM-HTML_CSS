@@ -103,3 +103,18 @@ p {
   font-size: 2.5rem;
   font-weight: 300;
 }
+
+/* LAUNCHING BUTTON STYLING  */
+
+.btn-sign-up:link,
+.btn-sign-up:visited {
+  color: #111111;
+  text-decoration: none;
+  text-align: justify;
+  font-weight: bold;
+  font-size: 2.5rem;
+  display: inline-block;
+  border: 5px solid #ff3998;
+  border-radius: 100px;
+  padding: 30px 70px;
+}
