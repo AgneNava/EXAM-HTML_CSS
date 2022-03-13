@@ -212,6 +212,11 @@ p {
   display: none;
 }
 
+figure {
+  background-color: #cabcbc;
+  border-radius: 1.5rem;
+}
+
 figure img {
   width: 30rem;
 }
