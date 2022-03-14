@@ -363,6 +363,12 @@ figure .column-2 img {
 /* FULL SCREEN STYLING  */
 
 @media screen and (min-width: 1200px) {
+  .launching-1 p,
+  .launching-2 p,
+  .upsell p {
+    font-size: 1.5rem;
+  }
+
   /* MAIN HEADER */
 
   .menu-icon {
@@ -381,8 +387,8 @@ figure .column-2 img {
 
   .main-header-nav > a {
     text-decoration: none;
-    font-size: 1rem;
-    color: #272727;
+    font-size: 1.5rem;
+    color: #555555;
     padding-left: 1rem;
   }
 
