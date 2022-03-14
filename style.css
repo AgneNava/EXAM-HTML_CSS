@@ -223,7 +223,7 @@ figure {
 }
 
 figure img {
-  width: 30rem;
+  width: 25rem;
 }
 
 figure .column-2 img {
@@ -238,7 +238,7 @@ figure .column-2 img {
   align-items: center;
   margin-top: 0;
   height: 25%;
-  width: 30rem;
+  width: 25rem;
   background-color: #eeeeee;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
