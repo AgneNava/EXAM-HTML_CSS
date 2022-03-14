@@ -135,7 +135,7 @@ p {
   width: 100%;
   margin: 0;
   padding: 0;
-  margin-top: 1.9rem;
+  margin-top: 2.05rem;
   color: #202020;
   text-align: center;
   text-decoration: none;
@@ -377,6 +377,10 @@ figure .column-2 img {
     margin-bottom: 1rem;
   }
 
+  .button-content a span p {
+    margin-top: 3.2rem;
+  }
+
   /* MAIN HEADER */
 
   .main-header {
@@ -472,6 +476,8 @@ figure .column-2 img {
 
   .footer-right-side {
     justify-content: flex-end;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .footer-right-nav {
@@ -505,5 +511,6 @@ figure .column-2 img {
   .copyright {
     font-size: 1.5rem;
     padding: 0;
+    margin-bottom: 1rem;
   }
 }
