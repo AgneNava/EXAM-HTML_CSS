@@ -255,7 +255,7 @@ figure {
 }
 
 figure img {
-  width: 25rem;
+  width: 22rem;
 }
 
 figure .column-2 img {
@@ -270,7 +270,7 @@ figure .column-2 img {
   align-items: center;
   margin-top: 0;
   height: 25%;
-  width: 25rem;
+  width: 22rem;
   background-color: #eeeeee;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
@@ -320,13 +320,13 @@ figure .column-2 img {
 
 .item-name-price {
   color: #111111;
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
 .article-number-day {
   color: #777777;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 /* FOOTER STYLING  */
@@ -576,5 +576,12 @@ figure .column-2 img {
     font-size: 1.5rem;
     padding: 0;
     margin-bottom: 1rem;
+  }
+
+  /* SCROLL-LINE */
+
+  .scroll-line {
+    justify-content: center;
+    flex-grow: 1;
   }
 }
