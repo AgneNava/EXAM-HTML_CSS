@@ -84,9 +84,32 @@ header img {
   height: 130%;
 }
 
-.launching-2 img {
-  height: 200%;
-  margin-bottom: -0.2rem;
+.launching-2 .left {
+  margin-bottom: 8rem;
+}
+
+.green-lady-box {
+  height: 100%;
+  position: relative;
+}
+
+.green-lady-box img {
+  position: absolute;
+  height: 90%;
+  bottom: 0;
+  right: -15rem;
+}
+
+hr {
+  margin: 10rem 3.5rem;
+}
+
+#hr-middle {
+  display: none;
+}
+
+#hr-bottom {
+  margin-top: 0;
 }
 
 .launching-1 h1,
