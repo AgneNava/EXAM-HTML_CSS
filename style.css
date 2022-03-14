@@ -409,12 +409,6 @@ figure .column-2 img {
     margin-bottom: 8rem;
   }
 
-  .launching-2 img {
-    /* height: 110%;
-    margin-top: -5rem;
-    margin-bottom: -2.5rem; */
-  }
-
   .green-lady-box {
     height: 100%;
     position: relative;
@@ -423,7 +417,6 @@ figure .column-2 img {
   .green-lady-box img {
     position: absolute;
     height: 100%;
-    /* bottom: -3rem; */
     right: -7rem;
   }
 
