@@ -86,6 +86,7 @@ header img {
 
 .launching-2 img {
   height: 200%;
+  margin-bottom: -0.2rem;
 }
 
 .launching-1 h1,
@@ -381,12 +382,38 @@ figure .column-2 img {
     font-size: 1.5rem;
   }
 
+  .launching-2 .left {
+    margin-bottom: 8rem;
+  }
+
+  .launching-2 img {
+    /* height: 110%;
+    margin-top: -5rem;
+    margin-bottom: -2.5rem; */
+  }
+
+  .green-lady-box {
+    height: 100%;
+    position: relative;
+  }
+
+  .green-lady-box img {
+    position: absolute;
+    height: 100%;
+    /* bottom: -3rem; */
+    right: -7rem;
+  }
+
   hr {
     margin: 10rem 3.5rem;
   }
 
   #hr-middle {
     display: none;
+  }
+
+  #hr-bottom {
+    margin-top: 0;
   }
 
   .upsell h3 {
